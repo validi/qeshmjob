@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1px"
+        app:cardCornerRadius="2dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="12dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="7dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    style="@style/st_txtTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="برنامه نویس اندروید" />
+
+                <TextView
+                    android:id="@+id/txtCompany"
+                    style="@style/st_txtComapny"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="کابینت پیکاسو" />
+
+                <TextView
+                    android:id="@+id/txtCity"
+                    style="@style/st_txtCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="قشم رمکان" />
+
+                <TextView
+                    android:id="@+id/txtPrice"
+                    style="@style/st_txtPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.000.000 ريال -- 15.000.000 ريال" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+
+                android:layoutDirection="ltr">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="7dp">
+                    <TextView
+                        android:id="@+id/txtTagNew"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:paddingBottom="3dp"
+                        android:textSize="12dp"
+                        android:layout_gravity="center|right"
+                        android:gravity="center"
+                        android:paddingHorizontal="5dp"
+
+                        android:text="جدید" />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/txtTimeAgo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    style="@style/st_txtCity"
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 روز قبل" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

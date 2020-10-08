@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/ir_y_l</item>
+
+        <item name="android:textSize">14dp</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <style name="ir_y_regular" >
+        <!-- Customize your theme here. -->
+
+        <item name="fontFamily">@font/ir_y_regular</item>
+
+
+    </style>
+    <style name="ir_y_bold" >
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/ir_y_bold</item>
+
+    </style>
+    <style name="st_txtTitle" >
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">18dp</item>
+        <item name="fontFamily">@font/ir_y_medium</item>
+        <item name="android:textColor">@color/colorTitle</item>
+    </style>
+
+    <style name="st_txtComapny" >
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">16dp</item>
+        <item name="fontFamily">@font/ir_y_regular</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    <style name="st_txtCity" >
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">15dp</item>
+        <item name="fontFamily">@font/ir_y_regular</item>
+        <item name="android:textColor">@color/colorCity</item>
+    </style>
+
+    <style name="st_txtPrice" >
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">15dp</item>
+        <item name="fontFamily">@font/ir_y_regular</item>
+        <item name="android:textColor">@color/colorPrice</item>
+    </style>
+
+</resources>

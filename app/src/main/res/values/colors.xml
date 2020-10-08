@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0CAA41</color>
+    <color name="colorPrimaryDark">#0CAA41</color>
+<!--    <color name="colorPrimaryDark">#098834</color>-->
+    <color name="colorAccent">#EA7400</color>
+    <color name="colorTitle">#0348BC</color>
+    <color name="colorPrice">#87A256</color>
+    <color name="colorCity">#999999</color>
+    <color name="colorBlack">#212121</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTextTabBar">#4E60C8</color>
+</resources>
